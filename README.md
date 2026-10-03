@@ -22,6 +22,23 @@ python3 dev_server.py
 
 Then open [http://localhost:8000](http://localhost:8000).
 
+## Run browser tests
+
+The static preview needs only Python 3. The test suite additionally requires Node.js 20 or newer, npm, and Google Chrome.
+
+From the repository root:
+
+```bash
+npm ci
+npm test
+```
+
+[playwright.config.js](playwright.config.js) selects the `chrome` channel, so installing only Playwright's default Chromium browser does not satisfy this configuration. Ensure Google Chrome is installed before running the suite.
+
+Playwright starts `python3 dev_server.py` automatically at `http://127.0.0.1:8000`. It reuses a server already running there, so stop any unrelated service on port 8000 before testing.
+
+[tests/site.spec.js](tests/site.spec.js) covers ten viewport sizes, horizontal overflow, mobile navigation's Escape/focus behavior, estimate-request completion, and reduced-motion visibility. Failure screenshots are enabled in the Playwright configuration.
+
 ## Deploy
 
 The site is deployment-ready as static files. Enable GitHub Pages for the repository's `main` branch/root directory, or deploy the folder to any static host.
