@@ -41,3 +41,10 @@ The site is deployment-ready as static files. Enable GitHub Pages for the reposi
 ## Scope
 
 This is a front-end portfolio concept, not a live cleaning business. The estimate form intentionally demonstrates validation and success states without transmitting or storing personal data. Connect the form handler to a real booking service before using it in production.
+
+## License
+
+Original contributions by Malik Abuallatta are licensed under the
+[MIT License](LICENSE). Third-party code, adaptations, dependencies, and assets
+retain their existing licenses and notices. This license does not grant new
+rights to third-party material.
