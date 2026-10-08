@@ -1,6 +1,8 @@
 # Zen Cleaning
 
-A responsive, art-directed landing page concept for a modern home and office cleaning service. The project pairs editorial typography with layered botanical imagery, service cards, trust-focused storytelling, and an accessible estimate-request flow.
+Choosing a cleaning service often means comparing vague service lists, judging trust from a single page, and filling out a quote form before knowing what to expect. Zen explores a clearer first step: a calm, accessible page that helps a visitor understand the service, choose what they need, and preview an estimate without sending personal data.
+
+It is a responsive, art-directed landing page concept for a modern home and office cleaning service. The project uses editorial typography, layered botanical imagery, service cards, trust-focused storytelling, and an accessible estimate-request flow to make that decision easier.
 
 ![Zen Cleaning website preview](assets/zen-booking-living-room.webp)
 
